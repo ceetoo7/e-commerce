@@ -1,7 +1,8 @@
 import './Register.css'
 const Register = ()=>{
     return (
-        <form className="register-form">
+        <div className='container'>
+            <form className="register-form">
             <h1>Register Page</h1>
             <label htmlFor="username">Username : </label>
             <input type="text" name="username" />
@@ -17,6 +18,7 @@ const Register = ()=>{
 
             <button className="btn-submit">Submit</button>
         </form>
+        </div>
     )
 }
 
