@@ -4,6 +4,19 @@ const Register = ()=>{
             <h1>Register Page</h1>
             <label htmlFor="username">Username : </label>
             <input type="text" name="username" />
+
+            <label htmlFor="email">Email : </label>
+            <input type="email" name="email" />
+
+            <label htmlFor="Password">Password : </label>
+            <input type="password" name="password" />
+
+            <label htmlFor="confirmPassword">Confirm Password : </label>
+            <input type="password" name="password" />
+
+            <button className="btn-submit">Submit</button>
         </form>
     )
 }
+
+export default Register
