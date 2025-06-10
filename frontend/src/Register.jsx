@@ -1,3 +1,4 @@
+import './Register.css'
 const Register = ()=>{
     return (
         <form className="register-form">

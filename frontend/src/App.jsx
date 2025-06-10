@@ -4,7 +4,7 @@ import Register from './Register'
 export const App = () => {
   return (
     <div>
-      Register
+      <Register/>
     </div>
   )
 }
