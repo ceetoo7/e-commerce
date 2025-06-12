@@ -22,7 +22,7 @@
 .btn-submit{
     background-color: rgb(45, 0, 151);
     color: white;
-    margin-top: 10px;
+    margin-top: 60px;
     padding:  5px 10px;
     border-radius: 10px;
     border: none;
@@ -32,4 +32,10 @@ input{
     border-radius: 5px;
     border: 1px solid black;
     padding:10px;
+}
+
+.already{
+    display: flex;
+    align-items: center;
+    
 }

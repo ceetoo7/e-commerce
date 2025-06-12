@@ -17,6 +17,11 @@ const Register = ()=>{
             <input type="password" name="password" />
 
             <button className="btn-submit">Submit</button>
+
+            <div className='already'>
+                <p>Already a member?</p>
+                <a href="/login">Sign In</a>
+            </div>
         </form>
         </div>
     )

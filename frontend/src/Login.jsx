@@ -12,6 +12,11 @@ const Login = ()=>{
             <input type="password" name="password" />
 
             <button className="btn-submit">Submit</button>
+
+            <div className='new'>
+                <p>Not a member yet?</p>
+                <a href="/register">Register</a>
+            </div>
         </form>
         </div>
     )
